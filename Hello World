@@ -5,9 +5,9 @@
 
 
 async function startProgram() {
-	await speak("Hello World", true);
+	await speak("Cant Stop The A-Train", true) ;
 	setMainLed({ r:0, g: 0, b: 255});
 	setSpeed(60);
-	await delay (2);
+	await delay (4.75);
 	setSpeed(0);
 }
