@@ -1,3 +1,9 @@
+async function startProgram() {
+
+	await scrollMatrixText("Start", 100);
+	await speak("start");
+}
+
 //Team Members: Zachary Ward, Oliver Rose-Clemontine
 //Date: 1.14.2025
 //Program: Pre Comp
@@ -10,7 +16,7 @@
 
 
 //Start
-//Bolt will stay start over LEDs and say Start
+//Bolt will say start over LEDs and say Start
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
@@ -35,5 +41,5 @@
 
 //Sound
 //Bolt will play a Sound
-Driver: Oliver Rose-Clemontine
-Nav: Zachary Ward
+//Driver: Oliver Rose-Clemontine
+//Nav: Zachary Ward
