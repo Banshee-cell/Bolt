@@ -10,6 +10,7 @@ async function startProgram() {
 
 
 
+/*
 
 //Start
 //Bolt will say start over LEDs and say Start
@@ -19,6 +20,7 @@ async function startProgram() {
 	await speak("start", true);
 	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
 
+*/
 
 
 
@@ -46,7 +48,7 @@ async function startProgram() {
 
 
 
-/*
+
 //Figure eight
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
@@ -54,7 +56,7 @@ async function startProgram() {
 //Bolt will play a Sound
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
-*/
+
 
 
 //end code
