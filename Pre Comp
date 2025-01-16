@@ -1,16 +1,10 @@
-async function startProgram() {
-	await speak("start", true);
-	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
-
-
-
-}
 
 //Team Members: Zachary Ward, Oliver Rose-Clemontine
 //Date: 1.14.2025
 //Program: Pre Comp
 //Hardware: Bolt #SB - 52F9
 
+async function startProgram() {
 
 
 
@@ -21,6 +15,9 @@ async function startProgram() {
 //Bolt will say start over LEDs and say Start
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
+
+	await speak("start", true);
+	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
 
 
 
@@ -61,3 +58,4 @@ async function startProgram() {
 
 
 //end code
+}
