@@ -39,8 +39,8 @@ async function startProgram() {
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
-	await roll(90, 80, 2);
-
+	await roll(0, 80, 2);
+	await spin(90, 1);
 	await roll(90, 80, 2);
 
 
