@@ -43,7 +43,7 @@ async function startProgram() {
 	await spin(90, 1);
 	await roll(90, 80, 2);
 
-*/
+
 
 //Sound
 //Bolt will play a Sound
@@ -53,7 +53,7 @@ async function startProgram() {
 
 await Sound.Animal.play(true);
 
-
+*/
 //Figure eight
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
