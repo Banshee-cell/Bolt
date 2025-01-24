@@ -13,7 +13,8 @@ async function startProgram() {
 //Nav: Zachary Ward
 
 
-
+  await speak("start", true);
+	await scrollMatrixText('start!', { r: 255, g: 255, b: 255 }, 30, true)
 
 
 //Green Checkpoint
