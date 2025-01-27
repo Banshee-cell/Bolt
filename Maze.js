@@ -5,7 +5,7 @@
 
 //Begin Program
 async function startProgram() {
-
+setStabilization(false);
 
 //Start & Say start
 //Bolt will say start over LEDs and say Start
@@ -22,14 +22,23 @@ async function startProgram() {
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
- await roll(0, 76.15, 2)
- await setMAinLed({ r: 0, g: 255, b: 90 })
+	 await roll(0, 76.05, 1.75);
+	 await setMainLed({ r: 0, g: 255, b: 90 });
 
 
 //Sound #1 Checkpoint
 //Bolt makes sound of choice - Update Sound
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
+
+	await delay(.5);
+	await spin(90, .5);
+	await delay(.5);
+	await roll(90, 52, 1.75);
+	await delay(.5);
+	await spin(90, .5);
+	await roll(180, 30, 1.75);
+	await Sound.Animal.Monkey.play(true);
 
 
 
