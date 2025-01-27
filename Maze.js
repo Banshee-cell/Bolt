@@ -23,6 +23,7 @@ async function startProgram() {
 //Nav: Oliver Rose-Clemontine
 
  await roll(0, 76.15, 2)
+ await setMAinLed({ r: 0, g: 255, b: 90 })
 
 
 //Sound #1 Checkpoint
