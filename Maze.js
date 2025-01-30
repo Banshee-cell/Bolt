@@ -23,7 +23,7 @@ setStabilization(false);
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
-	 await roll(0, 75.5, 1.75);
+	 await roll(0, 74, 2);
 	 await setMainLed({ r: 0, g: 255, b: 90 });
 
 
@@ -35,10 +35,10 @@ setStabilization(false);
 	await delay(.5);
 	await spin(90, .5);
 	await delay(.5);
-	await roll(90, 52, 1.75);
+	await roll(90, 53.5, 1.75);
 	await delay(.5);
 	await spin(90, .5);
-	await roll(180, 36, 1.75);
+	await roll(180, 35, 1.75);
 	await Sound.Animal.Monkey.play(true);
 
 
@@ -60,10 +60,10 @@ setStabilization(false);
 
 	await delay(.5);
 	await spin(-90, 1);
-	await roll(120, 28.5, 1.75);
+	await roll(120, 24, 1.75);
 	await delay(.25);
 	await spin(-90, 1);
-	await roll(30, 30, 1.75);
+	await roll(30, 35, 1.75);
 	await Sound.Animal.Eagle.play(true);
 
 //Purple Checkpoint
@@ -71,6 +71,9 @@ setStabilization(false);
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
+	await delay(.5);
+	await spin(90, 1);
+	await roll(120, 27, 2);
 
 
 //Sound #3 Checkpoint
