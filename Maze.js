@@ -59,8 +59,8 @@ async function startProgram() {
 //Nav: Zachary Ward
 
 	await delay(.5);
-	await spin(-90, 1);
-	await roll(120, 25, 1.75);
+	await spin(-75, 1);
+	await roll(120, 24, 1.75);
 	await delay(.25);
 	await spin(-90, 1);
 	await roll(30, 37, 1.75);
@@ -100,15 +100,20 @@ async function startProgram() {
 //Driver: Zachary Ward
 //Nav: Oliver Rose-Clemontine
 
-
-
+	await spin(-40, 1);
+	 await delay(.5);
+	await roll(-50, 32, 1.75);
+	await setMainLed({ r: 0, g:0, b: 255});
 
 //Finish and Say Finish
 //Bolt will say Finish over LEDs and say Finish out loud
 //Driver: Oliver Rose-Clemontine
 //Nav: Zachary Ward
 
-
+	await spin(45, 1);
+	await roll(-5, 35, 1.75);
+	await scrollMatrixText('Finish!', { r: 255, g: 255, b: 255 }, 30, true);
+	await speak("finish", true);
 
 
 
